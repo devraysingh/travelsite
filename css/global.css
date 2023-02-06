@@ -33,6 +33,9 @@ h1 {
     display: flex;
     background-color: #FEFAF5;
     justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: center;
 }
 
 .footer-hours__container {
@@ -43,13 +46,19 @@ h1 {
 }
 
 .footer--socials__container {
-
+    display: flex;
+    justify-content: justify-content;
+    align-items: center;
 
 
 }
 
 .footer--social__icon {
-    height: 30px;
+    height: 21px;
+    width: auto;
+    margin-right:20px;
+    margin-top: 16px;
+
 
     
 }
@@ -78,7 +87,7 @@ nav {
     font-size: 14px;
 }
 
-h4, h1, h2, p {
+h4, h1, h2, p, h3 {
     color: #335576;
 }
 
@@ -90,3 +99,24 @@ h4, h1, h2, p {
 .nav--item--current{
     border-bottom: 4px solid #DB7A4E;
 }
+
+.footer-subheading {
+    color: #DB7A4E;
+    font-size: 10px;
+
+}
+
+
+.footer-description {
+    font-size: 12px;
+}
+
+.footer-hours__title{
+    padding-left: 15px;
+}
+
+.footer--hours__container-subcontainer {
+    padding-left: 15px;
+}
+
+

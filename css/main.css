@@ -3,6 +3,7 @@
     height: 33vh;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
 
 
 }
@@ -14,8 +15,9 @@
 }
 
 .hero--image {
-    width: 440px;
+    width: 400px;
     margin: 10px 50px;
+    position: relative;
 
  
 }
