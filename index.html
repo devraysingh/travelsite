@@ -11,37 +11,48 @@
 <body>
     <header>
         <nav>
-            <h1>Travel Site</h1>
+            <h4 class="nav--title">Travel Site</h4>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/hawaii.html">Hawaii</a></li>
-                <li><a href="./pages/iceland.html">Iceland</a></li>
-                <li><a href="./pages/greece.html">Greece</a></li>
+                <li class="nav--item"><a class="no-link-decor" href="./index.html">Home</a></li>
+                <li class="nav--item"><a class="no-link-decor" href="./pages/hawaii.html">Hawaii</a></li>
+                <li class="nav--item"><a class="no-link-decor" href="./pages/iceland.html">Iceland</a></li>
+                <li class="nav--item"><a class="no-link-decor" href="./pages/greece.html">Greece</a></li>
             </ui>
         </nav>
 
     </header>
 
     <main>
-        <section>
-            <h2>Travelling Comes With Endless Discoveries</h2>
-            <p>Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-            <a>Get Started</a>
+        <section class="hero-section">
+            <div class="hero--info">
+                <h1 class="hero--info__title">Travelling Comes With <br> Endless Discoveries</h1>
+                <p class="hero--info__description" >Don’t let your dreams be just dreams. Experience the world by booking a <br>vacation with us now.</p>
+                <a class="hero--info__link no-link-decor" href="/">Get Started</a>
+            </div>
+            <div class="hero--image-container">
+                <img class="hero--image" src="./assets/images/hero.png"/>
+            </div>
+            
         </section>
-        <section>
-            <h2>
-                Recommendations
-            </h2>
-            <div>
-                <div>
-                    <h3>Hawaii</h3>
-                </div>
-                <div>
-                    <h3>Iceland</h3>
-                </div>
-                <div>
-                    <h3>Greece</h3>
-                </div>
+        <section class="recommendations-section">
+            <h2 class="recommendations-title">Recommendations </h2>
+            <div class="recommendations-container">
+                <a href="./pages/hawaii.html" >
+                    <div class="recommendations-card recommendations-card-one">
+                        <h3 class="recommendations-card-title">Hawaii</h3>
+                    </div>
+                </a>
+                <a href="./pages/iceland.html" >
+                    <div class="recommendations-card recommendations-card-two">
+                        <h3 class="recommendations-card-title">Iceland</h3>
+                    </div>
+                </a>
+                
+                <a href="./pages/greece.html">
+                    <div class="recommendations-card recommendations-card-three">
+                        <h3 class="recommendations-card-title">Greece</h3>
+                    </div>
+                </a>
             </div>
     
         </section>
@@ -49,8 +60,8 @@
 
 
 
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer-contact">
             <h3>Contact</h3>
             <div>
                 <p>Email</p>
@@ -58,27 +69,30 @@
             </div>
         </div>
       
-        <div>
-            <h3>Hours</h3>
-            <div>
-                <p>MONDAY - FRIDAY</p>
-                <p>9:00 AM - 5:00 PM</p>
-            </div>
-            <div>
-                <p>SATURDAY</p>
-                <p>10:00 AM - 4:00 PM</p>
-            </div>
-                <p>Sunday</p>
-                <p>CLOSED</p>
+        <div class="footer--hours">
+            <h3 class="footer-hours__title">Hours</h3>
+            <div class="footer-hours__container">
+                <div class="footer--hours__weekdays">
+                    <p>MONDAY - FRIDAY</p>
+                    <p>9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="footer--hours__sat">
+                    <p>SATURDAY</p>
+                    <p>10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="footer--hours__sun">
+                    <p>Sunday</p>
+                    <p>CLOSED</p>
+                </div>
             </div>
 
         </div>
-        <div>
-            <h3>Social</h3>
-            <div>
-                <img src="./assets/images/icon-instagram.png" alt="instagram icon"/>
-                <img src="./assets/images/icon-facebook.png" alt="facebook icon"/>
-                <img src="./assets/images/icon-twitter.png" alt="twitter icon"/>
+        <div class="footer--socials">
+            <h3 class="footer--socials__title">Social</h3>
+            <div class="footer--socials__container">
+                <img class="footer--social__icon" src="./assets/images/icon-instagram.png" alt="instagram icon"/>
+                <img class="footer--social__icon" src="./assets/images/icon-facebook.png" alt="facebook icon"/>
+                <img class="footer--social__icon" src="./assets/images/icon-twitter.png" alt="twitter icon"/>
             </div>
         </div>
     </footer>

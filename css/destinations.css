@@ -1,0 +1,79 @@
+.hero-greece {
+    background-image: url('../assets/images/greece.jpg');
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.hero-hawaii {
+    background-image: url('../assets/images/hawaii.jpg');
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.hero-iceland {
+    background-image: url('../assets/images/iceland.jpg');
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.events-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+ 
+}
+
+.event-container {
+    background-color: white;
+    margin-left: 33px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+
+
+
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+li {
+    text-align: center;
+    margin: 10px 10px;
+
+
+}
+.event--title {
+    border-bottom: 3px solid black;
+    color: black;
+
+}
+
+.event--item{
+    background-color: #FEFAF5;
+    padding: 10px 80px;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-left: 80px;
+    padding-top: 120px;
+    font-size: 72px;
+}
