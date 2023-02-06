@@ -1,3 +1,4 @@
+/* Hero Section CSS */
 .hero-section {
     background-color: #FEFAF5;
     height: 33vh;
@@ -35,6 +36,8 @@
     font-size: 12px;
 }
 
+
+/* Recommendations Section CSS */
 .recommendations-section {
     display: flexbox;
 }

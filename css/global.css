@@ -1,3 +1,4 @@
+/* General Setup CSS */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -23,9 +24,15 @@ h1 {
     font-size: 32px;
 }
 
-
-
-
+h4, h1, h2, p, h3 {
+    color: #335576;
+    
+}
+.no-link-decor {
+    text-decoration: none;
+    color: black;
+}
+/* Nav CSS */
 nav {
     display: flex;
     align-items: center;
@@ -38,19 +45,6 @@ nav {
     max-width: 1280px;
     padding: 0px 100px;
     z-index: 999;
-
-
-}
-
-h4, h1, h2, p, h3 {
-    color: #335576;
-    
-}
-
-
-.no-link-decor {
-    text-decoration: none;
-    color: black;
 }
 
 .nav--item {
@@ -73,6 +67,7 @@ h4, h1, h2, p, h3 {
 }
 
 
+/* Footer CSS  */
 .footer {
     display: flex;
     background-color: #FEFAF5;

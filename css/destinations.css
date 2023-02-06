@@ -1,4 +1,5 @@
 
+/* Destinations CSS Setup */
 ul{
     padding-inline-start: 0px;
 }
@@ -22,6 +23,8 @@ h1 {
     font-size: 72px;
     margin-block-end: 60px;
 }
+
+/* Hero CSS for Destionations */
 
 .hero-greece {
     background-image: url('../assets/images/greece.jpg');
@@ -52,7 +55,7 @@ h1 {
 
 }
 
-
+/* Events CSS Section within the Hero Section */
 .events-container {
     display: flex;
     justify-content: center;
