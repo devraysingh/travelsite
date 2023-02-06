@@ -1,3 +1,28 @@
+
+ul{
+    padding-inline-start: 0px;
+}
+
+li {
+    text-align: center;
+    margin: 10px 10px;
+
+
+}
+
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-left: 80px;
+    padding-top: 80px;
+    font-size: 72px;
+    margin-block-end: 60px;
+}
+
 .hero-greece {
     background-image: url('../assets/images/greece.jpg');
     width: 100%;
@@ -45,16 +70,6 @@
 
 }
 
-ul{
-    padding-inline-start: 0px;
-}
-
-li {
-    text-align: center;
-    margin: 10px 10px;
-
-
-}
 .event--title {
     border-bottom: 3px solid black;
     color: black;
@@ -66,15 +81,3 @@ li {
     padding: 10px 80px;
 }
 
-
-h4 {
-    text-align: center;
-}
-
-h1 {
-    color: white;
-    padding-left: 80px;
-    padding-top: 80px;
-    font-size: 72px;
-    margin-block-end: 60px;
-}

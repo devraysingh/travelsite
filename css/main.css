@@ -36,11 +36,10 @@
 }
 
 .recommendations-section {
- 
     display: flexbox;
-
 }
 
+/* Section Heading of Recommendations */
 .recommendations-title {
     padding-left: 100px;
     padding-top: 25px;
@@ -48,13 +47,14 @@
 
 }
 
+/* Contains all Content */
 .recommendations-container{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
 
 } 
-
+/* Recommendations Cards Formatting in CSS */
 .recommendations-card {
     width: 278px;
     height: 24vh;
@@ -66,6 +66,8 @@
     border-radius: 5px;
 }
 
+
+/* Hero Images */
 .recommendations-card-one{
     background-image: url('../assets/images/hawaii.jpg');
 
@@ -83,7 +85,7 @@
 }
 
 
-
+/* Recommedations Hero Title */
 .recommendations-card-title {
     position: absolute;
     bottom: 0;

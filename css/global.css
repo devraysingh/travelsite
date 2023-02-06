@@ -23,9 +23,53 @@ h1 {
     font-size: 32px;
 }
 
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1280px;
+    padding: 0px 100px;
+    z-index: 999;
+
+
+}
+
+h4, h1, h2, p, h3 {
+    color: #335576;
+    
+}
+
+
 .no-link-decor {
     text-decoration: none;
     color: black;
+}
+
+.nav--item {
+    display: inline;
+    padding-bottom: 8px;
+    margin: 0px 10px;
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.nav--item:hover {
+    border-bottom: 4px solid #DB7A4E;
+
+}
+
+.nav--item--current{
+    border-bottom: 4px solid #DB7A4E;
 }
 
 
@@ -53,44 +97,6 @@ h1 {
 
 
     
-}
-
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 1280px;
-    padding: 0px 100px;
-    z-index: 999;
-
-
-}
-
-.nav--item {
-    display: inline;
-    padding-bottom: 8px;
-    margin: 0px 10px;
-    color: black;
-    font-size: 14px;
-}
-
-h4, h1, h2, p, h3 {
-    color: #335576;
-}
-
-.nav--item:hover {
-    border-bottom: 4px solid #DB7A4E;
-
-}
-
-.nav--item--current{
-    border-bottom: 4px solid #DB7A4E;
 }
 
 .footer-subheading {
