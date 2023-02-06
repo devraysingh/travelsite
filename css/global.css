@@ -72,10 +72,10 @@ nav {
 
 .nav--item {
     display: inline;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     margin: 0px 10px;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 h4, h1, h2, p {
@@ -85,4 +85,8 @@ h4, h1, h2, p {
 .nav--item:hover {
     border-bottom: 4px solid #DB7A4E;
 
+}
+
+.nav--item--current{
+    border-bottom: 4px solid #DB7A4E;
 }

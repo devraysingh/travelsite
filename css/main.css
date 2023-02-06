@@ -40,14 +40,16 @@
 }
 
 .recommendations-title {
-    padding: 2rem;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 
 }
 
 .recommendations-container{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-bottom: 50px;
 
 } 
 
