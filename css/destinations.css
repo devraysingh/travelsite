@@ -29,7 +29,7 @@ h1 {
 .hero-greece {
     background-image: url('../assets/images/greece.jpg');
     width: 100%;
-    height: 45vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,7 +39,7 @@ h1 {
 .hero-hawaii {
     background-image: url('../assets/images/hawaii.jpg');
     width: 100%;
-    height: 45vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,7 @@ h1 {
 .hero-iceland {
     background-image: url('../assets/images/iceland.jpg');
     width: 100%;
-    height: 45vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

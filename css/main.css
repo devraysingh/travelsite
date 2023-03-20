@@ -1,7 +1,7 @@
 /* Hero Section CSS */
 .hero-section {
     background-color: #FEFAF5;
-    height: 33vh;
+    height: 50vh;
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -17,7 +17,7 @@
 
 .hero--image {
     width: 400px;
-    margin: 10px 50px;
+
     position: relative;
 
  
@@ -60,7 +60,7 @@
 /* Recommendations Cards Formatting in CSS */
 .recommendations-card {
     width: 278px;
-    height: 24vh;
+    height: 24rem;
     background-position: center;
     background-size: cover;
     margin-left: 30px;

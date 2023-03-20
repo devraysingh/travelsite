@@ -28,6 +28,11 @@ h4, h1, h2, p, h3 {
     color: #335576;
     
 }
+/* Need this to remove the white space from body margin */
+body{
+    margin: 0;
+}
+
 .no-link-decor {
     text-decoration: none;
     color: black;
@@ -45,6 +50,7 @@ nav {
     max-width: 1280px;
     padding: 0px 100px;
     z-index: 999;
+    height: 5rem;
 }
 
 .nav--item {
@@ -84,11 +90,15 @@ nav {
 
 }
 
+.footer--socials{
+
+}
+
 .footer--social__icon {
-    height: 21px;
+
     width: auto;
-    margin-right:21px;
-    margin-top: 16px;
+    height: 21px;
+
 
 
     
